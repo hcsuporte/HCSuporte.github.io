@@ -53,6 +53,7 @@ header{
 }
 nav ul li a{
 	font-size: 1em;
+	padding-left: 0;
 }
 .menu nav ul li{
 	padding: 1%;

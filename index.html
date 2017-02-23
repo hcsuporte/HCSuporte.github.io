@@ -18,22 +18,14 @@
 	<link rel="stylesheet" href="css/slider.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/secciones.css">
-	<script src="https://use.fontawesome.com/502b7294a9.js"></script>
-	<link rel="stylesheet" href="css/redes.css">
+	<script src="https://use.fontawesome.com/502b7294a9.js"></script>	
 	<link rel="stylesheet" href="css/tabla.css">
-	<link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/formulario.css">
 	<link rel="stylesheet" href="css/responsive.css">
 
 </head>
 <body>
-<div class="red">
-	<div id="facebook"><a href="https://www.facebook.com/bluuweb/" target="none" class="fa fa-facebook"></a></div>
-	<div id="youtube"><a href="#" class="fa fa-youtube-play"></a></div>
-	<div id="twitter"><a href="#" class="fa fa-twitter"></a></div>
-	<div id="correo"><a href="#" class="fa fa-envelope"></a></div>
-</div>
-<header>
+<header id="header">
 	<div class="ancho">
 		<div class="logo">
 			<p><a href="index.html">HCSuporte</a></p>
@@ -44,36 +36,36 @@
 		
 			<nav class="nav">
 				<ul>
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#empresa">Empresa</a></li>
-					<li><a href="#servico">Serviços</a></li>
-					<li><a href="#contato">Contato</a></li>
+					<li><a onclick="scrollpage('header'); return false;" href="#">Inicio</a></li>
+					<li><a onclick="scrollpage('empresa'); return false;" href="#">Empresa</a></li>
+					<li><a onclick="scrollpage('servico'); return false;" href="#">Serviços</a></li>
+					<li><a onclick="scrollpage('planos'); return false;" href="#">Planos</a></li>
+					<li><a onclick="scrollpage('contato'); return false;" href="#">Contato</a></li>
 				</ul>
 			</nav>
 
 		</div>
 	</div>
 </header>
-
 <div class="ancho-letras">
 	<div class="letras-slider">
 		<h1 class="animated zoomIn">HCSuporte</h1>
 		<p class="animated slideInUp"> Melhor Escolha de Desenvolvimento, Programação e Marketing Digital do Brasil!</p>
 	</div>
 </div>
-<div id="particles-js"></div>
-<section class="wap">
+<div id="particles-js" ></div>
+<section id="empresa" class="wap bloco">
 	<section class="bienvenidos" > 
-		<h2>Bem Vindo a HCSuporte</h2>
+		<h2>Bem Vindo</h2>
 		<h3>Bem vindo ao nosso site. Desta forma você poderá conhecer um pouco mais da HCS que desde sempre vem se destacando no mercado de maneira sólida e transparente.</h3>
 		<h3>Apresentando um modelo de serviço de assistência técnica e suporte em informática para clientes corporativos e residenciais de forma inovadora no mercado.</h3>	
 	</section>
 	<section class="contenedor-columnas">
 		<div class="columnasx3">
-			<img src="imgs/1.jpg" alt="">
-			<h4>Título</h4>
-			<h5>Subtítulo</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, totam, itaque. Molestiae eaque alias, inventore eos reiciendis, repellat ullam culpa dolor maxime nihil eius quaerat veniam excepturi ducimus earum totam?</p>
+			<img src="imgs/sadas.jpg" alt="">
+			<h4>MANUTENÇÃO</h4>
+			<h5>MANUTENÇÃO E REPARO</h5>
+			<p>Realizamos manutenção e reparo de computadores e equipamentos eletronicos de CFTV e Alarme.</p>
 		</div>
 		<div class="columnasx3">
 			<img src="imgs/1.jpg" alt="">
@@ -82,7 +74,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, totam, itaque. Molestiae eaque alias, inventore eos reiciendis, repellat ullam culpa dolor maxime nihil eius quaerat veniam excepturi ducimus earum totam?</p>
 		</div>
 		<div class="columnasx3">
-			<img src="imgs/1.jpg" alt="">
+			<img src="imgs/5.jpg" alt="">
 			<h4>Título</h4>
 			<h5>Subtítulo</h5>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, totam, itaque. Molestiae eaque alias, inventore eos reiciendis, repellat ullam culpa dolor maxime nihil eius quaerat veniam excepturi ducimus earum totam?</p>
@@ -90,10 +82,10 @@
 		
 	</section>
 </section>
-<section class="banner-1" id="servico">
+<section class="banner-1">
 	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing, dolor.<a href="#">Enlace Externo</a></h3>
 </section>
-<section class="wap">
+<section class="wap" id="servico"	>
 	<section class="bienvenidos" > 
 		<h2>Servicios</h2>
 		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur minus, eum mollitia doloribus voluptatum ducimus est harum dolore veritatis quaerat ea hic. Dolorum, natus. Placeat ipsa maiores quod ullam provident!</h3>
@@ -134,10 +126,10 @@
 	</section>
 </section>
 <section class="banner-2">
-	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing, dolor.<a href="#">Enlace Externo <i class="fa fa-arrow-right" aria-hidden="true"></i></a></h3>
+	<h3>teste ipsum dolor sit amet, consectetur adipisicing, dolor.<a href="#">Enlace Externo <i class="fa fa-arrow-right" aria-hidden="true"></i></a></h3>
 </section>
 
-<section class="wap">
+<section id="planos" class="wap">
 	<section class="bienvenidos"> 
 		<h2>Tabla de precios</h2>
 		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur minus, eum mollitia doloribus voluptatum ducimus est harum dolore veritatis quaerat ea hic. Dolorum, natus. Placeat ipsa maiores quod ullam provident!</h3>
@@ -241,12 +233,12 @@
 </section>
 <section class="wap">
 	<section class="bienvenidos" id="contato"> 
-		<h2>Contáctanos</h2>
+		<h2>Contato</h2>
 		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur minus, eum mollitia doloribus voluptatum ducimus est harum dolore veritatis quaerat ea hic. Dolorum, natus. Placeat ipsa maiores quod ullam provident!</h3>
 	</section>
 	<section class="dos-columnas">
 		<div class="formulario">
-			<h4 class="formu-ti">Formulario de Contacto</h4>
+			<h4 class="formu-ti">Formulario de Contato</h4>
 			<form action="enviar.php" method="post">
 				<input type="text" name="nombre" placeholder="Nombre" class="caja-1">
 				<input type="email" name="email" placeholder="E-mail" class="caja-1" required>
@@ -269,30 +261,25 @@
 		</div>
 		<div class="datos">
 			<ul class="datos-contacto">
-				<li><i class="fa fa-twitter" aria-hidden="true"></i></li> 
-				<li><h4>Twitter:</h4>@bluuweb</li>
 				<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-				<li><h4>Facebook:</h4>@bluuweb</li>
-				<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-				<li><h4>Instagram:</h4>@bluuweb</li>
+				<li><h4>Facebook:</h4>@bluuweb</li>				
 			</ul>
-		</div>
-		
+		</div>	
 		
 	</section>
 
 </section>
 <section class="limpia"></section>
 <footer>
-	<div>Todos los derechos reservados 2016</div>
-	<div>www.bluuweb.cl</div>
+	<div>Todos los derechos reservados 2017</div>
+	<div>Herbert Cotta</div>
 </footer>
 
 
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
+<script src="js/alto.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
-<script src="sss/sss.js"></script>
 </body>
 </html>

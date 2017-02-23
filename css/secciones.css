@@ -47,8 +47,7 @@ p{
 }
 .contenedor-columnas{
 	width: 100%;
-	margin: auto;
-	margin-bottom: 50px;
+	margin: auto;	
 }
 .columnasx3{
 	width: 33.333%;
@@ -98,7 +97,7 @@ p{
 }
 .banner-2{
 	margin-top: 50px;
-	background: url(imagenes/5.jpg);
+	background: url(../imgs/5.jpg);
 	float: left;
 	width: 100%;
 	height: 200px;

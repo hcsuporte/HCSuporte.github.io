@@ -33,6 +33,7 @@ header{
 	display: none;
 }
 /*BOTAO MENU MOBILE*/
+
 .menu span{
 	width: 25px;
 	height: 5px;
@@ -96,7 +97,7 @@ header{
 /*MODIFICADO DE LARGURA */
 .ancho{
 	width: 80%;
-	height: 70px;
+	height: 70px;	
 	/*background: red;*/
 	margin: auto;
 	display: flex;
