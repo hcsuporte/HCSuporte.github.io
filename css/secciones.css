@@ -60,33 +60,6 @@ p{
 	width: 100%;
 
 }
-.banner-1{
-	width: 100%;
-	background: #1ABC9C;
-	clear: both;
-	padding-top: 30px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 50px;
-	text-align: center;
-	box-sizing: border-box;
-	transition: 0.4s;
-}
-.banner-1:hover{
-	background: #444;
-	transition: .4s;
-}
-.banner-1 h3{
-	color: #fff;
-	font-size: 32px;
-}
-.banner-1 a{
-	text-decoration: none;
-	margin-left: 20px;
-	font-weight: bold;
-	color: #fff;
-	border-bottom: 2px solid #fff;
-}
 .columnasx3 i{
 	float: left;
 	padding-right: 20px;
@@ -95,7 +68,7 @@ p{
 .columnasx3 h4{
 	padding-bottom: 20px;
 }
-.banner-2{
+.banner{
 	margin-top: 50px;
 	background: url(../imgs/5.jpg);
 	float: left;
@@ -108,14 +81,14 @@ p{
 	margin-bottom: 50px;
 
 }
-.banner-2 h3{
+.banner h3{
 	background: rgba(0,0,0,.5);
 	color: #fff;
 	font-size: 32px;
 	height: 100%;
 	padding-top: 5%;
 }
-.banner-2 a{
+.banner a{
 	text-decoration: none;
 	margin-left: 20px;
 	font-weight: bold;
